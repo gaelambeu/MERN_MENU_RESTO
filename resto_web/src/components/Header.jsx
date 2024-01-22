@@ -1,8 +1,16 @@
 import React from 'react'
+import Link from 'react-scroll'
 
 const Header = () => {
+  const content = 
+    <>
+    
+    </>
+
   return (
-    <div>Header</div>
+    <div className="bg-slate-900">
+      
+    </div>
   )
 }
 
