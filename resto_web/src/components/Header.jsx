@@ -1,30 +1,30 @@
 import React from 'react'
-import Link from 'react-scroll'
+import { NavLink, Link } from 'react-router-dom'
 
 const Header = () => {
   const navLinks = [
     {
-      path:'/home',
+      path:'/',
       display: 'Home'
     },
     {
-      path:'/doctors',
-      display: 'Find a Doctor'
+      path:'/menuAllFood',
+      display: 'All Menu'
     },
     {
-      path:'/services',
-      display: 'Services'
-    },
-    {
-      path:'/contact',
-      display: 'Contact'
+      path:'/commandeByTable',
+      display: 'My Command'
     },
   ]
 
   return (
-    <div>
-      
-    </div>
+    <header className="header flex items-center">
+      <div className="container">
+        <div className="flex items-center justify-between">
+
+        </div>
+      </div>
+    </header>
   )
 }
 
