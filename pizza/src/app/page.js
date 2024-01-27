@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <header>
-        <Link href="">ST PIZZA</Link>
+        <Link className="text-red-600 font-semibold" href="">ST PIZZA</Link>
         <nav>
           <Link href={''}>Home</Link>
           <Link href={''}>Menu</Link>
