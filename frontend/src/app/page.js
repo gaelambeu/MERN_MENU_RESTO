@@ -1,16 +1,16 @@
-
+import Link from "next/Link"
 
 export default function Home() {
   return (
     <>
       <header>
-        <a href="">ST PIZZA</a>
+        <Link href="">ST PIZZA</Link>
         <nav>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <Link href={''}>Home</Link>
+          <Link href={}>Menu</Link>
+          <Link href={}>About</Link>
+          <Link href={}>Contact</Link>
+          <Link href={}>Login</Link>
         </nav>
       </header>
     </>
