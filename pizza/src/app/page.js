@@ -4,7 +4,14 @@ export default function Home() {
   return (
     <>
       <header>
-        <a href=""></a>
+        <Link href="">ST PIZZA</Link>
+        <nav>
+          <Link href={''}>Home</Link>
+          <Link href={''}>Menu</Link>
+          <Link href={''}>About</Link>
+          <Link href={''}>Contact</Link>
+          <Link href={''}>Login</Link>
+        </nav>
       </header>
     </>
   );
