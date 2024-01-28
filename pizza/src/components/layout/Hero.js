@@ -6,6 +6,7 @@ export default function Hero() {
                 Pizza is the missing piece that makes every day
                 complete, a simple yet delicious joy in life
             </p>
+            <Image src={''} alt={'pizza'} />
         </section>
     )
 }
