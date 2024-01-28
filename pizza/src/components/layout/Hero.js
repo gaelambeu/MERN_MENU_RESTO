@@ -11,8 +11,11 @@ export default function Hero() {
                     Pizza is the missing piece that makes every day
                     complete, a simple yet delicious joy in life
                 </p>
-                <div>
-                    <button></button>
+                <div className="flex gap-4">
+                    <button className="bg-primary text-white px-8 py-2 rounded-full">
+                        Order now
+                    </button>
+                    <button>Learn more</button>
                 </div>
             </div>
             <div className="relative">
