@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Hero() {
     return(
         <section>
@@ -6,7 +8,11 @@ export default function Hero() {
                 Pizza is the missing piece that makes every day
                 complete, a simple yet delicious joy in life
             </p>
-            <Image src={''} alt={'pizza'} />
+            <div className="w-16 h-16 relative">
+                <Image src={'/pizza.png'} layout={'fill'} objectFit={'contain'} alt={'pizza'} />
+            </div>
+
+            
         </section>
     )
 }
